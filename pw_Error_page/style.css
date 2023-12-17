@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: url("./pexels-charles-1851164.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+nav{
+    height: 10%;
+    width: 100%;
+    /* background-color: red; */
+}
+img{
+    height: 100%;
+    width: 35%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main{
+    height: 80%;
+    width: 100%;
+    /* background-color: blue; */
+    margin-left: 15vw;
+    margin-top: 20vh;
+
+
+}
+h1{
+    width: 35vw;
+    font-size: 8vw;
+    border-bottom: 10px solid orange;
+    margin-bottom: 10px;
+    /* color: red; */
+}
+p{
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+}
+button{
+    padding: 15px 30px;
+    background-color: #5A4BDA;
+    border-radius: 7px;
+}
+a{
+    text-decoration: none;
+    font-size: auto;
+    color: #fff;
+    outline: none;
+
+}
