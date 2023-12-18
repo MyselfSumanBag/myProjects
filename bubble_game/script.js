@@ -4,7 +4,7 @@ const time = document.querySelector(".time");
 // let hero = document.querySelector(".hero");
 
 let randomHit = 0
-let timer = 6;
+let timer = 60;
 let score = 0;
 
 function makeBubble(){
