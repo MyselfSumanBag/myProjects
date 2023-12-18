@@ -4,7 +4,7 @@ const time = document.querySelector(".time");
 // let hero = document.querySelector(".hero");
 
 let randomHit = 0
-let timer = 60;
+let timer = 6;
 let score = 0;
 
 function makeBubble(){
@@ -25,7 +25,8 @@ function newHit(){
 function setTime(){
     document.querySelector('.time').innerText = timer;
     if(timer === 0){
-        alert('Your time is over')
+        alert(`Game over final score is ${score}`)
+
     }else{
         timer--;
         setTimeout(setTime,1000)
